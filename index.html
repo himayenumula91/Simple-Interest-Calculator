@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="SI.css">
+    <script src="./SI.js" type="text/javascript"></script>
+    <meta charset="UTF-8">
+    <title>Simple Interest Calculator</title>
+    <link rel="shortcut icon" type="x-icon" href="SI.jpg"/>
+</head>
+<body>
+    <h1>Simple Interest Calculator</h1>
+    <div class="container">
+        <div class="inpSection">
+                <label>Enter Total Amount : 
+                <input type="number" id="amount" placeholder="Enter Total Amount" min="0">
+                </label>
+                <label>Enter Time : 
+                <input type="number" id="time" placeholder="Enter Time" min="0">
+                </label>
+                <label>Rate :
+                <input type="number" id="rate" placeholder="Enter Rate" min="0">            
+                </label>
+                <button onclick="Calculate()">Calculate</button>
+                <button onclick="Clear()">Clear</button>
+            <div class="result">
+                <h3 id="si"></h3>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
